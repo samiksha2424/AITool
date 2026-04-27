@@ -1,0 +1,26 @@
+.toggle-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.toggle-group button {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #94a3b8;
+  border-radius: 2rem;
+  padding: 0.4rem 1.2rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.toggle-group button:hover {
+  border-color: #38bdf8;
+  color: #f1f5f9;
+}
+
+.toggle-group button.active {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}

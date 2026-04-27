@@ -1,0 +1,105 @@
+.current-card {
+  background: #1e293b;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.city-name {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.condition {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  background: #0f172a;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+
+.temp-display {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #38bdf8;
+  line-height: 1;
+  margin: 1rem 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.unit-symbol {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0.75rem;
+  color: #7dd3fc;
+}
+
+.stats-row {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+/* Skeleton */
+.skeleton {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.sk-line {
+  background: #334155;
+  border-radius: 0.4rem;
+}
+
+.sk-title  { width: 40%; height: 1.75rem; margin-bottom: 0.75rem; }
+.sk-condition { width: 25%; height: 1rem; margin-bottom: 1rem; }
+.sk-temp   { width: 30%; height: 5rem; margin-bottom: 1.25rem; }
+.sk-stat   { width: 6rem; height: 1.2rem; }
+
+/* Error */
+.error-card {
+  color: #fca5a5;
+  text-align: center;
+}
+
+.error-detail {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
